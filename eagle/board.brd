@@ -35,7 +35,7 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -268,6 +268,11 @@ RTC BACKUP</text>
 <wire x1="12.446" y1="47.752" x2="13.716" y2="47.117" width="0.254" layer="21"/>
 <wire x1="12.446" y1="47.752" x2="13.716" y2="48.387" width="0.254" layer="21"/>
 <wire x1="18.796" y1="47.752" x2="17.526" y2="48.387" width="0.254" layer="21"/>
+<text x="65.405" y="11.938" size="2.032" layer="16" font="vector" ratio="15" rot="MR0">080001</text>
+<wire x1="54.102" y1="14.097" x2="54.102" y2="11.811" width="0.4064" layer="42"/>
+<wire x1="54.102" y1="11.811" x2="66.294" y2="11.811" width="0.4064" layer="42"/>
+<wire x1="66.294" y1="11.811" x2="66.294" y2="14.097" width="0.4064" layer="42"/>
+<wire x1="66.294" y1="14.097" x2="54.102" y2="14.097" width="0.4064" layer="42"/>
 </plain>
 <libraries>
 <library name="Seeed-OPL-Connector">
