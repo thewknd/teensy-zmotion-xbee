@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -177,7 +177,7 @@
 <text x="48.133" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">CS</text>
 <text x="50.673" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">MOSI</text>
 <text x="53.213" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">MISO</text>
-<text x="55.753" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="R270" align="center-left">SCK</text>
+<text x="55.753" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">SCK</text>
 <text x="63.373" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">SDA</text>
 <text x="65.913" y="3.81" size="1.016" layer="21" font="vector" ratio="10" rot="SR270" align="center-left">SCL</text>
 <wire x1="40.794" y1="8.777" x2="68.267" y2="8.777" width="0.2032" layer="21"/>
